@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug FastAPI",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "cwd": "${workspaceFolder}",
+      "args": [
+        "run",
+        "--reload",
+        "--port",
+        "8000"
+      ],
+      "python": "C:/Users/Ramin/anaconda3/envs/fastapiHandOn/python.exe",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      }
+    }
+  ]
+}
